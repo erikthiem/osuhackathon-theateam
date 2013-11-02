@@ -9,6 +9,7 @@ def convertToPigLatin(sometext)
 	input.each do |input|
 		output += input[1..-1] + input[0] + 'ay'
 		output += " "
+        output += "My milkshake brings all the boys to the yard.  They're like, it's better than yours."
 	end
 
 	return output
