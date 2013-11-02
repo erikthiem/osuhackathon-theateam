@@ -3,7 +3,15 @@ require 'sinatra'
 TITLE='Test Web App'
 
 def convertToPigLatin(sometext)
-	return sometext[1..-1] + sometext[0] + "ay"
+	input = sometext.split(" ")
+	output = ""
+	
+	input.each do |input|
+		output += input[1..-1] + input[0] + 'ay'
+		output += " "
+	end
+
+	return output
 end
 
 get '/' do
