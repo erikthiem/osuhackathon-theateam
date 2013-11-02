@@ -1,6 +1,6 @@
 require 'sinatra'
 
-TITLE='Test Web App'
+TITLE='Pig Latin Generator'
 
 def convertToPigLatin(sometext)
 	input = sometext.split(" ")
@@ -22,5 +22,5 @@ end
 post '/input' do
 	SUBTITLE='Translation'
 	CONVERTED_TEXT=convertToPigLatin(params[:sometext])
-	erb :results
+	erb :result
 end
