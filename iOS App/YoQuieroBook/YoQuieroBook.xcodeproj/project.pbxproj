@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568D2D7118259D2900623952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D7018259D2900623952 /* Foundation.framework */; };
+		568D2D7318259D2900623952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D7218259D2900623952 /* CoreGraphics.framework */; };
+		568D2D7518259D2900623952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D7418259D2900623952 /* UIKit.framework */; };
+		568D2D7B18259D2900623952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 568D2D7918259D2900623952 /* InfoPlist.strings */; };
+		568D2D7D18259D2900623952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D2D7C18259D2900623952 /* main.m */; };
+		568D2D8118259D2900623952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D2D8018259D2900623952 /* AppDelegate.m */; };
+		568D2D8418259D2900623952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568D2D8218259D2900623952 /* Main.storyboard */; };
+		568D2D8718259D2900623952 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D2D8618259D2900623952 /* SearchViewController.m */; };
+		568D2D8918259D2900623952 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568D2D8818259D2900623952 /* Images.xcassets */; };
+		568D2D9018259D2900623952 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D8F18259D2900623952 /* XCTest.framework */; };
+		568D2D9118259D2900623952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D7018259D2900623952 /* Foundation.framework */; };
+		568D2D9218259D2900623952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D2D7418259D2900623952 /* UIKit.framework */; };
+		568D2D9A18259D2900623952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 568D2D9818259D2900623952 /* InfoPlist.strings */; };
+		568D2D9C18259D2900623952 /* YoQuieroBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D2D9B18259D2900623952 /* YoQuieroBookTests.m */; };
+		568D2DAB1825A2FD00623952 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D2DAA1825A2FD00623952 /* LoginViewController.m */; };
+		56F205901825A35A00FAD003 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F2058F1825A35A00FAD003 /* ResultsViewController.m */; };
+		56F205971825A43A00FAD003 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F205961825A43A00FAD003 /* NavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568D2D9318259D2900623952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568D2D6518259D2900623952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568D2D6C18259D2900623952;
+			remoteInfo = YoQuieroBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		568D2D6D18259D2900623952 /* YoQuieroBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoQuieroBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568D2D7018259D2900623952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		568D2D7218259D2900623952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		568D2D7418259D2900623952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		568D2D7818259D2900623952 /* YoQuieroBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoQuieroBook-Info.plist"; sourceTree = "<group>"; };
+		568D2D7A18259D2900623952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		568D2D7C18259D2900623952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568D2D7E18259D2900623952 /* YoQuieroBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoQuieroBook-Prefix.pch"; sourceTree = "<group>"; };
+		568D2D7F18259D2900623952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		568D2D8018259D2900623952 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		568D2D8318259D2900623952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568D2D8518259D2900623952 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		568D2D8618259D2900623952 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		568D2D8818259D2900623952 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		568D2D8E18259D2900623952 /* YoQuieroBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoQuieroBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		568D2D8F18259D2900623952 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		568D2D9718259D2900623952 /* YoQuieroBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoQuieroBookTests-Info.plist"; sourceTree = "<group>"; };
+		568D2D9918259D2900623952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		568D2D9B18259D2900623952 /* YoQuieroBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoQuieroBookTests.m; sourceTree = "<group>"; };
+		568D2DA91825A2FD00623952 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		568D2DAA1825A2FD00623952 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		56F2058E1825A35A00FAD003 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		56F2058F1825A35A00FAD003 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		56F205951825A43A00FAD003 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		56F205961825A43A00FAD003 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568D2D6A18259D2900623952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2D7318259D2900623952 /* CoreGraphics.framework in Frameworks */,
+				568D2D7518259D2900623952 /* UIKit.framework in Frameworks */,
+				568D2D7118259D2900623952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568D2D8B18259D2900623952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2D9018259D2900623952 /* XCTest.framework in Frameworks */,
+				568D2D9218259D2900623952 /* UIKit.framework in Frameworks */,
+				568D2D9118259D2900623952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568D2D6418259D2900623952 = {
+			isa = PBXGroup;
+			children = (
+				568D2D7618259D2900623952 /* YoQuieroBook */,
+				568D2D9518259D2900623952 /* YoQuieroBookTests */,
+				568D2D6F18259D2900623952 /* Frameworks */,
+				568D2D6E18259D2900623952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568D2D6E18259D2900623952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D6D18259D2900623952 /* YoQuieroBook.app */,
+				568D2D8E18259D2900623952 /* YoQuieroBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568D2D6F18259D2900623952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D7018259D2900623952 /* Foundation.framework */,
+				568D2D7218259D2900623952 /* CoreGraphics.framework */,
+				568D2D7418259D2900623952 /* UIKit.framework */,
+				568D2D8F18259D2900623952 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568D2D7618259D2900623952 /* YoQuieroBook */ = {
+			isa = PBXGroup;
+			children = (
+				56F205911825A3FF00FAD003 /* Navbar */,
+				568D2DA81825A2D700623952 /* OSU Login */,
+				568D2DA71825A2CD00623952 /* Results View */,
+				568D2DA61825A2BC00623952 /* Search View */,
+				568D2DA51825A29800623952 /* Delegate */,
+				568D2D8218259D2900623952 /* Main.storyboard */,
+				568D2D8818259D2900623952 /* Images.xcassets */,
+				568D2D7718259D2900623952 /* Supporting Files */,
+			);
+			path = YoQuieroBook;
+			sourceTree = "<group>";
+		};
+		568D2D7718259D2900623952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D7818259D2900623952 /* YoQuieroBook-Info.plist */,
+				568D2D7918259D2900623952 /* InfoPlist.strings */,
+				568D2D7C18259D2900623952 /* main.m */,
+				568D2D7E18259D2900623952 /* YoQuieroBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		568D2D9518259D2900623952 /* YoQuieroBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D9B18259D2900623952 /* YoQuieroBookTests.m */,
+				568D2D9618259D2900623952 /* Supporting Files */,
+			);
+			path = YoQuieroBookTests;
+			sourceTree = "<group>";
+		};
+		568D2D9618259D2900623952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D9718259D2900623952 /* YoQuieroBookTests-Info.plist */,
+				568D2D9818259D2900623952 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		568D2DA51825A29800623952 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D7F18259D2900623952 /* AppDelegate.h */,
+				568D2D8018259D2900623952 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		568D2DA61825A2BC00623952 /* Search View */ = {
+			isa = PBXGroup;
+			children = (
+				568D2D8518259D2900623952 /* SearchViewController.h */,
+				568D2D8618259D2900623952 /* SearchViewController.m */,
+			);
+			name = "Search View";
+			sourceTree = "<group>";
+		};
+		568D2DA71825A2CD00623952 /* Results View */ = {
+			isa = PBXGroup;
+			children = (
+				56F2058E1825A35A00FAD003 /* ResultsViewController.h */,
+				56F2058F1825A35A00FAD003 /* ResultsViewController.m */,
+			);
+			name = "Results View";
+			sourceTree = "<group>";
+		};
+		568D2DA81825A2D700623952 /* OSU Login */ = {
+			isa = PBXGroup;
+			children = (
+				568D2DA91825A2FD00623952 /* LoginViewController.h */,
+				568D2DAA1825A2FD00623952 /* LoginViewController.m */,
+			);
+			name = "OSU Login";
+			sourceTree = "<group>";
+		};
+		56F205911825A3FF00FAD003 /* Navbar */ = {
+			isa = PBXGroup;
+			children = (
+				56F205951825A43A00FAD003 /* NavigationBar.h */,
+				56F205961825A43A00FAD003 /* NavigationBar.m */,
+			);
+			name = Navbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568D2D6C18259D2900623952 /* YoQuieroBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568D2D9F18259D2900623952 /* Build configuration list for PBXNativeTarget "YoQuieroBook" */;
+			buildPhases = (
+				568D2D6918259D2900623952 /* Sources */,
+				568D2D6A18259D2900623952 /* Frameworks */,
+				568D2D6B18259D2900623952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoQuieroBook;
+			productName = YoQuieroBook;
+			productReference = 568D2D6D18259D2900623952 /* YoQuieroBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568D2D8D18259D2900623952 /* YoQuieroBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568D2DA218259D2900623952 /* Build configuration list for PBXNativeTarget "YoQuieroBookTests" */;
+			buildPhases = (
+				568D2D8A18259D2900623952 /* Sources */,
+				568D2D8B18259D2900623952 /* Frameworks */,
+				568D2D8C18259D2900623952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568D2D9418259D2900623952 /* PBXTargetDependency */,
+			);
+			name = YoQuieroBookTests;
+			productName = YoQuieroBookTests;
+			productReference = 568D2D8E18259D2900623952 /* YoQuieroBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568D2D6518259D2900623952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = OSUQuickBook;
+				TargetAttributes = {
+					568D2D8D18259D2900623952 = {
+						TestTargetID = 568D2D6C18259D2900623952;
+					};
+				};
+			};
+			buildConfigurationList = 568D2D6818259D2900623952 /* Build configuration list for PBXProject "YoQuieroBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568D2D6418259D2900623952;
+			productRefGroup = 568D2D6E18259D2900623952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568D2D6C18259D2900623952 /* YoQuieroBook */,
+				568D2D8D18259D2900623952 /* YoQuieroBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568D2D6B18259D2900623952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2D8918259D2900623952 /* Images.xcassets in Resources */,
+				568D2D7B18259D2900623952 /* InfoPlist.strings in Resources */,
+				568D2D8418259D2900623952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568D2D8C18259D2900623952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2D9A18259D2900623952 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568D2D6918259D2900623952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2DAB1825A2FD00623952 /* LoginViewController.m in Sources */,
+				56F205971825A43A00FAD003 /* NavigationBar.m in Sources */,
+				568D2D8718259D2900623952 /* SearchViewController.m in Sources */,
+				568D2D8118259D2900623952 /* AppDelegate.m in Sources */,
+				568D2D7D18259D2900623952 /* main.m in Sources */,
+				56F205901825A35A00FAD003 /* ResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568D2D8A18259D2900623952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D2D9C18259D2900623952 /* YoQuieroBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568D2D9418259D2900623952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568D2D6C18259D2900623952 /* YoQuieroBook */;
+			targetProxy = 568D2D9318259D2900623952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568D2D7918259D2900623952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568D2D7A18259D2900623952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		568D2D8218259D2900623952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568D2D8318259D2900623952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568D2D9818259D2900623952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568D2D9918259D2900623952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568D2D9D18259D2900623952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		568D2D9E18259D2900623952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568D2DA018259D2900623952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoQuieroBook/YoQuieroBook-Prefix.pch";
+				INFOPLIST_FILE = "YoQuieroBook/YoQuieroBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		568D2DA118259D2900623952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoQuieroBook/YoQuieroBook-Prefix.pch";
+				INFOPLIST_FILE = "YoQuieroBook/YoQuieroBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		568D2DA318259D2900623952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoQuieroBook.app/YoQuieroBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoQuieroBook/YoQuieroBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoQuieroBookTests/YoQuieroBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		568D2DA418259D2900623952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoQuieroBook.app/YoQuieroBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoQuieroBook/YoQuieroBook-Prefix.pch";
+				INFOPLIST_FILE = "YoQuieroBookTests/YoQuieroBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568D2D6818259D2900623952 /* Build configuration list for PBXProject "YoQuieroBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568D2D9D18259D2900623952 /* Debug */,
+				568D2D9E18259D2900623952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568D2D9F18259D2900623952 /* Build configuration list for PBXNativeTarget "YoQuieroBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568D2DA018259D2900623952 /* Debug */,
+				568D2DA118259D2900623952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568D2DA218259D2900623952 /* Build configuration list for PBXNativeTarget "YoQuieroBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568D2DA318259D2900623952 /* Debug */,
+				568D2DA418259D2900623952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568D2D6518259D2900623952 /* Project object */;
+}
